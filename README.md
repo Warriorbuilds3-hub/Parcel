@@ -8,7 +8,7 @@ This is a repository where everyone can pitch in and help make a beautiful websi
 - See your code on the website!
 
 # Rules
-Your code must not go against the Github TOS
+Your code must not go against the Github TOS.
 The following content is not permitted:
 - Pornography
 - Racsim, sexism, threats and/or malicious messages

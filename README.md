@@ -1,4 +1,4 @@
-# Welcome to the Community Website Repository
+# Welcome to Parcel, a Community Website Repository
 This is a repository where everyone can pitch in and help make a beautiful website. Send in your code to make this website into something everyone can enjoy!
 
 # How it works
@@ -14,5 +14,8 @@ The following content is not permitted:
 - Racsim, sexism, threats and/or malicious messages
 - Malware and/or code created with malicious intent
 - Any content that may go against US Federal Law
+
+# Main Page URL
+https://warriorbuilds3-hub.github.io/Parcel/home
 
 Aside from that, happy coding, and let's make the world a better place, one line at a time.

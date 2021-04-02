@@ -1,4 +1,9 @@
 h1 {
   font-family: Arial;
   font-weight: normal;
+  clear: left;
+}
+
+#description {
+  display: inline-block;
 }

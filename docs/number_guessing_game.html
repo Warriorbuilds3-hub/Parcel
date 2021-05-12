@@ -6,6 +6,19 @@
   </head>
   <body>
     <!--This was adapted from developer.mozila.org 's random number guessing game tutorial. I encourage you to check out the tutorial here: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash-->
+    <h2>Welcome to the Random Number Guessing Game!</h2>
+    <p>A random number between 1 and 100 has been picked. If you can guess it within 10 tries, you win! If your guess is wrong, then the game will tell you if it's too high or low. Good luck!</p>
+    <form>
+      <label for="guessfield">Enter a Guess:</label>
+      <input type="text" id="guessfield" class="guessfield">
+      <input type="submit" value="Submit" class="guessSubmit">
+    </form>
+    <div class="resultparas">
+      <p class="guesses"></p>
+      <p class="lastresult"></p>
+      <p class="loworhi"></p>
+    </div>
+ 
     <script>
       let randomnumber = Math.floor(Math.random() * 100) + 1;
       
@@ -78,17 +91,5 @@
         randomnumber = Math.floor(Math.random() * 100) + 1;
       }
     </script>
-    <h2>Welcome to the Random Number Guessing Game!</h2>
-    <p>A random number between 1 and 100 has been picked. If you can guess it within 10 tries, you win! If your guess is wrong, then the game will tell you if it's too high or low. Good luck!</p>
-    <div class="resultparas">
-      <p class="guesses"></p>
-      <p class="lastresult"></p>
-      <p class="loworhi"></p>
-    </div>
-    <form>
-      <label for="guessfield">Enter a Guess:</label>
-      <input type="text" id="guessfield" class="guessfield">
-      <input type="submit" value="Submit" class="guessSubmit">
-    </form>
   </body>
 <html>
